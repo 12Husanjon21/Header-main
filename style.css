@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #141722;
+    --grey: #7E7E7E;
+    --light: #EFE9E0;
+}
+
+html {
+    font-size: 10px;
+}
+
+ul {
+    margin: auto;
+    display: flex;
+    column-gap: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a {
+    color: var(--dark);
+}
+
+nav {
+    width: 1000px;
+    height: 80px;
+    column-gap: 60px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+nav > a {
+    padding: 11px;
+    padding-left: 15px;
+    width: 103px;
+    height: 34px;
+    position: relative;
+    top: -10px;
+    left: 800px;
+}
+
+.btn {
+    border: 1px solid var(--dark);
+    border-radius: 20px;
+    color: var(--light);
+    background-color: var(--dark);
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 4.3rem;
+    line-height: 53.28px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 17.16px;
+}
+
+.future > a {
+    border-radius: 30px;
+    padding: 10px;
+    position: relative;
+    top: 49px;
+}
+
+.future {
+    margin-left: 32px;
+    margin-bottom: 145px;
+}
+
+.protocol {
+    width: 1090px;
+    height: 498px;
+    border: solid #EFE9E0;
+    background-color: #EFE9E0;
+    border-radius: 27px;
+    margin: 0 32px 138px 88px;
+}
+
+.protocol > h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 3.3rem;
+    font-weight: 400;
+    line-height: 40.32px;
+    color: var(--dark);
+    margin-right: 199px;
+    position: relative;
+    left: -40px;
+}
+
+.protocol {
+    display: flex;
+    padding: 90px 46px 90px 104px;
+    position: relative;
+    left: -50px;
+}
+
+h4 {
+    font-weight: 1.6px;
+    font-family: "Roboto", sans-serif;
+    line-height: 18.48px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 5.2rem;
+    font-weight: 400;
+    line-height: 66.24px;
+}
+
+.row {
+    column-gap: 94px;
+}
+
+.top {
+    margin-right: 94px;
+    margin-bottom: 136px;
+}
+
+.geometric {
+    width: 215px;
+    height: 173px;
+    position: relative;
+    right: 1160px;
+    top: 90px;
+}
+
+.square {
+    width: 315px;
+    height: 273px;
+    position: relative;
+    right: 380px;
+    top: 290px;
+}
